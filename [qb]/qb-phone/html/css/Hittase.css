@@ -1,0 +1,182 @@
+.phone-container .phone-screen[App="Hittase"] .hittase-container {
+    background: #eee;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .phone-container .phone-screen[App="Hittase"] .hittase-container .hittase-header {
+    width: 100%;
+    height: 25%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .phone-container .phone-screen[App="Hittase"] .hittase-container .hittase-header .hittase-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .phone-container .phone-screen[App="Hittase"] .hittase-container .hittase-header .hittase-icon img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .phone-container .phone-screen[App="Hittase"] .hittase-container .hittase-header .hittase-input {
+    width: 200px;
+    height: 50px;
+    margin-left: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .phone-container .phone-screen[App="Hittase"] .hittase-container .hittase-header .hittase-input input {
+    width: 73%;
+    height: 100%;
+    outline: none;
+    border: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    font-size: 13px;
+    padding-left: 8px;
+    padding-right: 3px;
+    padding-top: 6px;
+  }
+  
+  .phone-container .phone-screen[App="Hittase"] .hittase-container .hittase-header .hittase-input input::-webkit-input-placeholder {
+    color: #9d9d9d;
+  }
+  
+  .phone-container .phone-screen[App="Hittase"] .hittase-container .hittase-header .hittase-input input:-ms-input-placeholder {
+    color: #9d9d9d;
+  }
+  
+  .phone-container .phone-screen[App="Hittase"] .hittase-container .hittase-header .hittase-input input::-ms-input-placeholder {
+    color: #9d9d9d;
+  }
+  
+  .phone-container .phone-screen[App="Hittase"] .hittase-container .hittase-header .hittase-input input::placeholder {
+    color: #9d9d9d;
+  }
+  
+  .phone-container .phone-screen[App="Hittase"] .hittase-container .hittase-header .hittase-input .hittase-searchIcon {
+    width: 18%;
+    height: 75%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 10px;
+    -webkit-transition: 200ms;
+    transition: 200ms;
+  }
+  
+  .phone-container .phone-screen[App="Hittase"] .hittase-container .hittase-header .hittase-input .hittase-searchIcon i {
+    font-size: 27px;
+    color: #9d9d9d;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  
+  .phone-container .phone-screen[App="Hittase"] .hittase-container .hittase-header .hittase-input .hittase-searchIcon.active {
+    background: #0099ff;
+    border-radius: 8px;
+    margin-left: 0px;
+    cursor: pointer;
+  }
+  
+  .phone-container .phone-screen[App="Hittase"] .hittase-container .hittase-header .hittase-input .hittase-searchIcon.active i {
+    color: white;
+  }
+  
+  .phone-container .phone-screen[App="Hittase"] .hittase-container .hittase-content {
+    width: 100%;
+    max-height: 69%;
+    overflow-y: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .phone-container .phone-screen[App="Hittase"] .hittase-container .hittase-content .hittase-person {
+    width: 85%;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .phone-container .phone-screen[App="Hittase"] .hittase-container .hittase-content .hittase-person .hittase-person-name {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 8px;
+  }
+  
+  .phone-container .phone-screen[App="Hittase"] .hittase-container .hittase-content .hittase-person .hittase-person-number {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 12px;
+    padding-right: 8px;
+  }
+  
+  .phone-container .phone-screen[App="Hittase"] .hittase-container .hittase-content .hittase-person .hittase-person-number i {
+    font-size: 17px;
+    padding-left: 7px;
+    -webkit-transition: 200ms;
+    transition: 200ms;
+    cursor: pointer;
+  }
+  
+  .phone-container .phone-screen[App="Hittase"] .hittase-container .hittase-content .hittase-person .hittase-person-number i:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  
+  .phone-container .phone-screen[App="Hittase"] .hittase-container .hittase-content::-webkit-scrollbar {
+    display: none;
+  }

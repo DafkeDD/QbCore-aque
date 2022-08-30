@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+    background: rgb(25, 25, 25);
+  background-size: 1800% 1800%;
+
+  
+  display: flex;
+  justify-content: center;
+}
+
+.overlay {
+  width: 100%;
+  height: 1150px;
+  margin: auto, auto, auto, auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.text:before {
+  content: 'LADDAR IN KARTAN...';
+  animation: animate infinite 50s;
+  z-index: 9999;
+}
+
+@keyframes animate {
+  0% {
+    content: 'LADDAR IN KARTAN';
+  }
+  25% {
+    content: 'LADDAR IN CHARACTERS';
+  }
+  50% {
+    content: 'LADDAR IN RESOURCES';
+  }
+  75% {
+    content: 'LADDAR IN SPELARE';
+  }
+  100% {
+    content: 'VÄLKOMMEN IN';
+  }
+}
+
+.logos {
+  width:400px;
+  height:400px;
+  top: 15%;
+  position: absolute;
+
+}
+
+h1 {
+  color: white;
+  font-size: 1.5em;
+  z-index: 9999;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Roboto', sans-serif;
+  text-shadow:
+  .25em 0 0 rgba(0,0,0,0),
+  .5em 0 0 rgba(0,0,0,0);
+}
+
+h2 {
+  color: white;
+  font-size: 3em;
+  z-index: 9999;
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Roboto', sans-serif;
+  text-shadow:
+  .25em 0 0 rgba(0,0,0,0),
+  .5em 0 0 rgba(0,0,0,0);
+}
+
+.text:after {
+  content: '.';
+  animation: dots23 1.2s steps(5, end) infinite;}
+
+@keyframes dots23 {
+  0%, 20% {
+    color: rgba(0,0,0,0);
+    text-shadow:
+      .25em 0 0 rgba(0,0,0,0),
+      .5em 0 0 rgba(0,0,0,0);}
+  40% {
+    color: rgb(75, 75, 75);
+    text-shadow:
+      .25em 0 0 rgba(0,0,0,0),
+      .5em 0 0 rgba(0,0,0,0);}
+  60% {
+    text-shadow:
+      .25em 0 0 rgb(75, 75, 75),
+      .5em 0 0 rgba(0,0,0,0);}
+  80%, 100% {
+    text-shadow:
+      .25em 0 0 rgb(75, 75, 75),
+      .5em 0 0 rgb(75, 75, 75);}}
+
+
+hr {
+    position: absolute;
+    left: 50%;
+    top: 52.5%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    border: 1px solid rgba(33, 33, 33, 1);
+    z-index: 9999999;
+}
+
+.bar { 
+  margin-top: 36%;
+  height: 10px;
+  width: 10px;
+  border: 3px solid white;
+  content: '';
+  top: 10%;
+  margin: 10px, 5px, 10px, 5px;
+  border-radius: 100%;
+  animation: ball 2s infinite linear;
+
+}
+
+.bar:nth-child(2n) {
+  animation-delay: 0.2s;
+}
+.bar:nth-child(3n) {
+  animation-delay: 0.4s;
+}
+
+@keyframes ball {
+    0%   { 
+    transform: scale(0.5);
+    background: white;
+  }
+  50%   { 
+    transform: scale(1);
+    background: transparent;
+  }
+  100% { 
+    transform: scale(0.5);
+    background: white;
+  }
+}
